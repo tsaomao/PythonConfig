@@ -9,3 +9,4 @@ parser.add_argument("observations", type=int, help="Number of observations in a 
 parser.add_argument("trials", type=int, help="Number of trials (sets of observations). Default: 500.", default=500)
 
 args = parser.parse_args()
+
